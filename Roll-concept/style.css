@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    width: 100vw;
+    height: 100vh;
+    background: #d089ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+    background-color: #ffffff;
+    padding: 40px 80px;
+    border-radius: 15px;
+    border: 2px dashed #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #181818;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #181818;
+}
+button:hover{
+    background: transparent;
+    box-shadow: 3px 3px 15px 3px #ffffff;
+    color: #ffffff;
+}
