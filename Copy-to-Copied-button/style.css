@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 2px 8px cyan,
+    2px 2px 8px cyan,
+    1px 1px 5px cyan;
+}
+input{
+    font-size: 1em;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+input{
+    appearance: none;
+    padding: 9px 25px;
+    background-color: #ffffff;
+}
+
+input::before{
+    content: "Copy";
+}
+
+input:checked:before{
+    content: "Copied";
+}

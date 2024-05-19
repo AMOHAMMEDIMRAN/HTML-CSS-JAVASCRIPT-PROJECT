@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: 3px solid #fff;
+}
+
+.box:hover{
+    box-shadow:
+     2px 2px 50px 8px rgb(47, 255, 255);
+}
+
+
+@media screen and (min-width: 480px){
+    .box:hover{
+        box-shadow:
+         2px 2px 50px 8px rgb(47, 255, 89);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .box:hover{
+        box-shadow: 
+        2px 2px 50px 8px rgb(214, 33, 255);
+    }
+}

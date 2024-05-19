@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-wrapper ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+
+ 

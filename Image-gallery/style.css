@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.image-wrapper img{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.image-wrapper{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 15%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background: #000;
+}
+
+
+
+
+
+
+
+.image-wrapper img{
+    width: 100px;
+    height: 350px;
+    transition: all 0.8s ease-in-out;
+    object-fit: cover;
+}
+.image-wrapper img:hover{
+    width: 200px; 
+    transform: translateY(-40px);
+}
+
+
+
