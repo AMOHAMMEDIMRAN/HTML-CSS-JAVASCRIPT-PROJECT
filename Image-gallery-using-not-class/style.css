@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background: #000;
+}
+a{
+    text-decoration: none;
+}
+.card-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card div:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.card-container .card{
+    width: 500px;
+    height: 250px;
+    background: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.card div:nth-child(1){
+    width: 400px;
+    height: 250px;
+}
+
+.card div:nth-child(2){
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+.card div:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+    scale: 0.9;
+}
+.card div:nth-child(2) h1:nth-child(1){
+    font-size: 35px;
+    font-weight: 700;
+}
+.card div:nth-child(2) p:nth-child(2){
+    font-size: 18px;
+    font-weight: 600;
+}
+.card div:nth-child(2) p:nth-child(3){
+    font-size: 12px;
+    font-weight: 600;   
+}
+.card div:nth-child(2) p:nth-child(4){
+    font-size: 15px;
+    font-weight: 600;
+}
+.card div:nth-child(2) div:nth-child(5){
+    display: flex;
+    justify-content: space-around;
+}
