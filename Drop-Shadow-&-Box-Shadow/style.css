@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+
+
+
+
+img{
+    width: 150px;
+}
+.box-shadow img{
+    box-shadow: 2px 2px 25px rgb(255, 30, 30);
+}
+.drop-shadow img{
+    filter: drop-shadow(2px 2px 25px rgb(255, 30, 30));
+}
