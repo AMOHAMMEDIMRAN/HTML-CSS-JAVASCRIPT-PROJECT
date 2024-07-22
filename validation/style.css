@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: auto;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: orangered;
+    padding: 50px;
+    border: 3px solid #fff;
+    border-radius: 15px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.input-view{
+    border: 3px solid #fff;
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px;
+}
+#input-field{
+    padding: 4px;
+    border-radius: 10px;
+}

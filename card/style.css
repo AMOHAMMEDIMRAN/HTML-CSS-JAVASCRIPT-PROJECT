@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  margin-left: 100px;
+  margin-top: 200px;
+  background: #ffa41c;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+
+
+
+.container{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    transition: 300ms ease-in-out;
+    box-shadow: 0px 5px 10px 0px #0a0a0a7c;
+}
+.card + .card{
+    margin-left: -10%;
+}
+.card:hover{
+    transform: rotate(-6deg);
+}
+.card:hover ~ .card {
+    translate: 80px;
+}
